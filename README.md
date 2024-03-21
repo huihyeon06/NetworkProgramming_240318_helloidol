@@ -15,3 +15,8 @@
       1. python manage.py startapp _playground_
    2. helloido/settings.py
       1. 'playgournd', in INSTALLED_APPS
+3. playgound/
+   - 정보 전달 : urls -> views -> (models -> ) templates
+   - 코드 작성 : (models -> ) views -> templates -> urls
+   1. views
+      1. _say_hello()_
