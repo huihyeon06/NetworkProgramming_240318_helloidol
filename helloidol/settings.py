@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'txt.urls'
+ROOT_URLCONF = 'helloidol.urls'
 
 TEMPLATES = [
     {

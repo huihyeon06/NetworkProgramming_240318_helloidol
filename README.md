@@ -41,13 +41,15 @@
       1. '투바투', in INSTALLED_APPS
    3. 투바투/
       1. views
-         1. show_수빈()
-         2. show_태현()
-         3. show_연준()
-         4. show_범규()
-         5. show_휴닝()
+         1. ~~show_수빈()~~
+         2. ~~show_태현()~~
+         3. ~~show_연준()~~
+         4. ~~show_범규()~~
+         5. ~~show_휴닝()~~
          6. -> templates에 context 전달
          7. 정보를 하나로 묵고, 거기서 꺼내오자
+         8. show_멤버()
+         9. image link -> image file(static)
       2. templates/투바투/
          1. ~~수빈.html~~
             1. title : 투바투 - 수빈
@@ -58,9 +60,11 @@
          2. ~~연준.html~~
          3. 멤버.html
             1. group_name, name, img_src
+            2. {% load static %} <img src="{% static img_src %}">
       3. urls
-         1. 투바투/ -> 수빈/ -> show_수빈()
-         2. 투바투/ -> 태현/ -> show_태현()
-         3. 투바투/ -> 연준/ -> show_연준()
-         4. 투바투/ -> 범규/ -> show_범규()
-         5. 투바투/ -> 휴닝/ -> show_휴닝()
+         1. ~~투바투/ -> 수빈/ -> show_수빈()~~
+         2. ~~투바투/ -> 태현/ -> show_태현()~~
+         3. ~~투바투/ -> 연준/ -> show_연준()~~
+         4. ~~투바투/ -> 범규/ -> show_범규()~~
+         5. ~~투바투/ -> 휴닝/ -> show_휴닝()~~
+         6. 투바투/ -> <멤버>/ -> show_멤버(멤버)

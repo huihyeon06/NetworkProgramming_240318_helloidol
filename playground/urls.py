@@ -1,6 +1,6 @@
 from django.urls import path
 
-from playgound import views
+from playground import views
 
 app_name='playground'
 
