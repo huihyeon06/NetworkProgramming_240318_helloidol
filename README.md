@@ -50,6 +50,7 @@
          7. 정보를 하나로 묵고, 거기서 꺼내오자
          8. show_멤버()
          9. image link -> image file(static)
+         10. show_멤버리스트()
       2. templates/투바투/
          1. ~~수빈.html~~
             1. title : 투바투 - 수빈
@@ -61,6 +62,7 @@
          3. 멤버.html
             1. group_name, name, img_src
             2. {% load static %} <img src="{% static img_src %}">
+         4. 멤버리스트.html
       3. urls
          1. ~~투바투/ -> 수빈/ -> show_수빈()~~
          2. ~~투바투/ -> 태현/ -> show_태현()~~
@@ -68,5 +70,6 @@
          4. ~~투바투/ -> 범규/ -> show_범규()~~
          5. ~~투바투/ -> 휴닝/ -> show_휴닝()~~
          6. 투바투/ -> <멤버>/ -> show_멤버(멤버)
+         7. 투바투/ -> 멤버리스트/ -> show_멤버리스트()
       4. static/투바투/images/
          1. 치이카와.jpg, 수빈.png, 연준.png

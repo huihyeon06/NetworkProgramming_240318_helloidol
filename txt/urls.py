@@ -5,6 +5,7 @@ from txt import views
 app_name='txt'
 
 urlpatterns=[
+    path('멤버리스트/', views.show_멤버리스트, name='멤버리스트'),
     path('<멤버>/', views.show_멤버, name='멤버'),
     # path('subin/', views.show_, name='subin'),
     # path('yeonjun/', views.show_yeonjun, name='yeonjun'),
